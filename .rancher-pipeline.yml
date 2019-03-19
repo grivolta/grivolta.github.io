@@ -4,5 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: rivoltaCloud:${CICD_GIT_TAG}
+      tag: rivoltacloud:${CICD_GIT_TAG}
+      registry: 127.0.0.1:34653
 timeout: 60
+notification: {}
