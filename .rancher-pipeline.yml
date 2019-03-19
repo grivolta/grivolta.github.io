@@ -1,0 +1,8 @@
+stages:
+- name: Build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: rivoltaCloud:${CICD_GIT_TAG}
+timeout: 60
