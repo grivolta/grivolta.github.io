@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: rivoltacloud:${CICD_GIT_TAG}
+      tag: grivolta/rivoltacloud:${CICD_GIT_TAG}
       pushRemote: true
       registry: index.docker.io
 timeout: 60
