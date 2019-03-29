@@ -1394,7 +1394,14 @@ body {
   border-top-color: #149dcc;
 }
 .cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/spartans-2-2000x1274.jpg");
+  background-image: url("../../../assets/images/lego2-2-1358x764.jpg");
+}
+.cid-qTkA127IK8 .mbr-text,
+.cid-qTkA127IK8 .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-qTkA127IK8 H1 {
+  color: #ffffff;
 }
 .cid-rm1jRvScNN {
   padding-top: 90px;
